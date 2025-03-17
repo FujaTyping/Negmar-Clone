@@ -4,9 +4,7 @@ import PrelineScript from "./components/PrelineScript";
 import Navbar from "./components/Navbar";
 import { Prompt } from "next/font/google";
 
-const PT = Prompt(
-  { weight: "200" }
-);
+const PT = Prompt({ weight: "200", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Negmar",
