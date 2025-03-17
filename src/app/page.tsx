@@ -1,5 +1,6 @@
 import Mainpagination from "./components/Mainpagination";
 import News from "./components/News";
+import Totop from "./components/Totop";
 
 export default function Home() {
   return (
@@ -39,6 +40,40 @@ export default function Home() {
         />
       </div>
       <News />
+      <Totop />
+      <div className="flex flex-col-reverse md:flex-row w-full mx-auto items-center justify-center max-w-7xl gap-10 my-24 p-5">
+        <div>
+          <h1 className="text-3xl md:text-5xl text-blue-900 font-bold mb-5">OUR FOUNDER</h1>
+          <p className="max-w-lg">
+            “The second rule of entrepreneurship is to be proven reliable. Every
+            person is reliable, every businessman is reliable, every
+            entrepreneur is expected to be reliable. Be transparent and
+            accountable to yourself, your partners, your government, your family
+            and everyone around you. This makes you “proven reliable”. Everyone
+            can be reliable, but being proven reliable is more important and
+            meaningful. Let everyone around you, your company, the people you
+            work with, your family and friends know you as proven reliable.”
+          </p>
+          <div className="flex place-content-between items-center w-full mt-6">
+            <div>
+              <h1 className="font-bold text-2xl text-blue-900 mb-2">
+                Mehmet KOÇ
+              </h1>
+              <p>Chairman of the Board</p>
+            </div>
+            <img
+              className="max-h-[100px]"
+              src="https://negmar.com/wp-content/uploads/elementor/thumbs/ok-q5asb74oi3p9plgj59uc2iawxfb2ekvg7b8k2ni3uc.png"
+              alt="Arrow"
+            />
+          </div>
+        </div>
+        <img
+          className="rounded-lg sm:max-h-[350px] md:max-h-[450px] object-cover"
+          src="https://negmar.com/wp-content/uploads/2023/03/mehmet-koc.jpeg"
+          alt="Founder"
+        />
+      </div>
     </>
   );
 }
