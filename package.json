@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.26.10",
+    "@floating-ui/dom": "^1.6.13",
     "@preline/carousel": "^3.0.0",
     "@preline/collapse": "^3.0.0",
+    "@preline/dropdown": "^3.0.1",
     "@uiw/react-back-to-top": "^1.2.3",
     "lucide-react": "^0.482.0",
     "next": "15.2.2",
