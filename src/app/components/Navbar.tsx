@@ -87,13 +87,13 @@ function Navbar() {
                   </a>
                 </div>
               </div>
-              <a
+              <Link
                 className="group font-medium focus:outline-hidden focus:text-blue-600"
-                href="#"
+                href="/fleet"
               >
                 Fleet
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
-              </a>
+              </Link>
               <a
                 className="group font-medium focus:outline-hidden focus:text-blue-600"
                 href="#"
