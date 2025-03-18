@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.LogoOverlay {
+  background-image: url("./assets/logo-transparent.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 625px) {
+  .LogoOverlay {
+    background-position: 206px -309px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .LogoOverlay {
+    background-position: 306px -409px;
+  }
+}

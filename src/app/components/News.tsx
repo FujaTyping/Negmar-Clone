@@ -26,14 +26,14 @@ function News() {
               key={index}
               className="max-w-sm group cursor-pointer flex flex-col h-full"
             >
-              <div className="overflow-hidden">
+              <div className="overflow-hidden rounded-t-lg">
                 <img
                   src={news.img}
                   alt={`News${index + 1}`}
                   className="group-hover:scale-125 transition-all h-[250px] duration-500 w-full object-cover"
                 />
               </div>
-              <div className="bg-gray-200 p-6 py-8 flex-grow h-[230px] flex flex-col">
+              <div className="bg-gray-200 p-6 py-8 flex-grow h-[230px] flex flex-col rounded-b-lg">
                 <h1 className="font-bold text-blue-600 text-[18px]">
                   {news.title}
                 </h1>

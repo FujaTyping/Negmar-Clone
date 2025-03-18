@@ -3,6 +3,8 @@ import "./globals.css";
 import PrelineScript from "./components/PrelineScript";
 import Navbar from "./components/Navbar";
 import { Prompt } from "next/font/google";
+import Totop from "./components/Totop";
+import Footer from "./components/Footer";
 
 const PT = Prompt({ weight: "200", subsets: ["latin"] });
 
@@ -21,6 +23,8 @@ export default function RootLayout({
       <body className={`${PT.className}`}>
         <Navbar />
         {children}
+        <Footer />
+        <Totop />
       </body>
       <PrelineScript />
     </html>

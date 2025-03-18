@@ -1,6 +1,5 @@
 import Mainpagination from "./components/Mainpagination";
 import News from "./components/News";
-import Totop from "./components/Totop";
 
 export default function Home() {
   return (
@@ -34,13 +33,12 @@ export default function Home() {
           </p>
         </div>
         <img
-          className="w-[400px] hidden md:block"
+          className="w-[400px] hidden md:block rounded-lg"
           src="https://negmar.com/wp-content/uploads/2023/03/girisimin-gucu-1.jpg"
           alt="NegmarHero"
         />
       </div>
       <News />
-      <Totop />
       <div className="flex flex-col-reverse md:flex-row w-full mx-auto items-center justify-center max-w-7xl gap-10 my-24 p-5">
         <div>
           <h1 className="text-3xl md:text-5xl text-blue-900 font-bold mb-5">OUR FOUNDER</h1>
