@@ -94,13 +94,13 @@ function Navbar() {
                 Fleet
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
               </Link>
-              <a
+              <Link
                 className="group font-medium focus:outline-hidden focus:text-blue-600"
-                href="#"
+                href="/founder"
               >
                 Human resources
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
-              </a>
+              </Link>
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
                 <button
                   id="hs-navbar-example-dropdown"

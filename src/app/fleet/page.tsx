@@ -40,7 +40,7 @@ function page() {
       <div className="max-w-6xl mx-auto py-8 pb-14 md:py-14 p-5">
         <div className="flex flex-col items-center justify-center gap-6">
           <div>
-            <h1 className="font-bold text-4xl mb-4">FLEET</h1>
+            <h1 className="font-bold text-4xl mb-4 text-blue-900">FLEET</h1>
             <p>
               Operating under Negmar, Negmar Teknik Ship Management Inc. with
               its experienced team, it carries out the technical and commercial
